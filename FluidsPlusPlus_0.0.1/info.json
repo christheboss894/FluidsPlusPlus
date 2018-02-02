@@ -1,0 +1,11 @@
+{
+  "name": "FluidsPlusPlus",
+  "version": "0.0.1",
+  "factorio_version": "0.16",
+  "title": "Fluids++",
+  "author": "YMan + JBC363",
+  "contact": "Nil",
+  "homepage": "Nil",
+  "description": "Fluids for things like power++.",
+  "dependencies": ["base >= 0.16.0","CorePlusPlus"]
+}
