@@ -8,12 +8,13 @@ data:extend(
     base_color = {r=0.3, g=0.9, b=0.7},
     flow_color = {r=0.8, g=0.8, b=0.8},
     max_temperature = 100,
-    icon = "__base__/graphics/icons/fluid/petroleum-gas.png",
+    icon = "__base__/graphics/icons/fluid/steam.png",
     icon_size = 32,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-e[natural-gas]"
 	},
+	
 	{
     type = "fluid",
     name = "fuel-gas",
@@ -26,9 +27,11 @@ data:extend(
     icon_size = 32,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-	fuel_value = "5MJ"
-    order = "a[fluid]-e[fuel-gas]"
-	},{
+	fuel_value = "5MJ",
+    order = "a[petroleum-gas]-e[fuel-gas]"
+	},
+	
+	{
     type = "fluid",
     name = "acid-gas",
     default_temperature = 25,
@@ -40,6 +43,7 @@ data:extend(
     icon_size = 32,
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
-    order = "a[fluid]-e[petroleum-gas]"
-	},
+    order = "a[fuel-gas]-e[petroleum-gas]"
+	}
 }
+)
