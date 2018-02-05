@@ -14,7 +14,7 @@ data:extend(
     flow_to_energy_ratio = 0.59,
 	gas_temperature = 15,
     order = "a[fluid]-c[heavy-oil]",
-	fuel_value = "50MJ"
+	fuel_value = "40MJ"
 }
 }
 )
